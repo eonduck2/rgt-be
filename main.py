@@ -3,6 +3,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.post("/")
+@app.post("/order")
 async def root():
     return {"message": "Hello, FastAPI!"}
